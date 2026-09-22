@@ -4,7 +4,7 @@
 <script>
 (function(){
   var s = document.createElement('style');
-  s.textContent = ':root{--bg:#0a0a0a;--card:#141414;--card-2:#1a1a1a;--text:#f5f5f5;--muted:#a0a0a0;--accent:#facc15;--accent-soft:rgba(250,204,21,.12);--accent2:#eab308;--accent2-soft:rgba(234,179,8,.12);--border:rgba(250,204,21,.15);--border-soft:rgba(255,255,255,.06)}.reveal{opacity:0;transform:translateY(20px);animation:fadeUp .6s ease forwards}.reveal:nth-child(2){animation-delay:.1s}.reveal:nth-child(3){animation-delay:.2s}.reveal:nth-child(4){animation-delay:.3s}.reveal:nth-child(5){animation-delay:.4s}.reveal:nth-child(6){animation-delay:.5s}@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}.hover-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}.hover-card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 12px 40px rgba(250,204,21,.1)}.btn-primary{transition:all .2s ease}.btn-primary:hover{background:#fde047;color:#000;transform:translateY(-1px);box-shadow:0 8px 24px rgba(250,204,21,.3)}.divider{height:3px;background:linear-gradient(90deg,var(--accent),#ca8a04);border-radius:2px;width:60px}.onca-pattern{background-image:radial-gradient(circle at 20% 30%,rgba(250,204,21,.06) 0%,transparent 40%),radial-gradient(circle at 80% 70%,rgba(250,204,21,.05) 0%,transparent 35%),radial-gradient(circle at 50% 50%,rgba(250,204,21,.03) 0%,transparent 50%)}.eixo-tab{transition:all .2s ease;cursor:pointer;white-space:nowrap}.eixo-tab.active{background:var(--accent);color:#000;font-weight:700}.eixo-tab:not(.active):hover{background:rgba(250,204,21,.15);border-color:var(--accent)}.proposta-item{border-left:3px solid transparent;transition:all .2s ease}.proposta-item:hover{border-left-color:var(--accent);background:rgba(250,204,21,.04)}.scrollbar-yellow::-webkit-scrollbar{width:6px}.scrollbar-yellow::-webkit-scrollbar-track{background:#1a1a1a}.scrollbar-yellow::-webkit-scrollbar-thumb{background:var(--accent);border-radius:3px}.tabs-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}.tabs-scroll::-webkit-scrollbar{display:none}.candidato-foto{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);flex-shrink:0;background:var(--card-2)}.candidato-foto-lg{width:110px;height:110px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);flex-shrink:0;background:var(--card-2)}.candidato-initials{width:72px;height:72px;border-radius:50%;border:3px solid var(--accent);background:var(--card-2);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:22px;font-family:\'Lora\',serif;flex-shrink:0}.candidato-initials-lg{width:110px;height:110px;border-radius:50%;border:4px solid var(--accent);background:var(--card-2);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:36px;font-family:\'Lora\',serif;flex-shrink:0}.numero-urna{display:inline-block;padding:4px 12px;border-radius:6px;background:var(--accent);color:#000;font-weight:700;font-size:14px;letter-spacing:.05em}.copy-btn{padding:4px 10px;border-radius:6px;background:transparent;border:1px solid var(--accent);color:var(--accent);font-size:11px;font-weight:600;cursor:pointer;transition:all .15s}.copy-btn:hover{background:var(--accent);color:#000}.copy-btn.copied{background:#22c55e;border-color:#22c55e;color:#fff}.cargo-badge{display:inline-block;padding:3px 10px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}.uf-badge{display:inline-block;padding:2px 8px;border-radius:4px;background:rgba(255,255,255,.08);color:var(--muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}.colinha-grid{display:grid;grid-template-columns:1fr;gap:12px}.colinha-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}@media(min-width:640px){.colinha-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:768px){.colinha-grid{grid-template-columns:repeat(3,1fr)}}@media(min-width:1024px){.colinha-grid{grid-template-columns:repeat(4,1fr)}}@media(max-width:640px){.colinha-grid{grid-template-columns:1fr}.candidato-foto{width:56px;height:56px;font-size:18px}.candidato-foto-lg{width:80px;height:80px}.candidato-initials-lg{width:80px;height:80px;font-size:26px}}h1{font-size:40px}h2{font-size:28px}@media(min-width:640px){h1{font-size:56px}h2{font-size:34px}}@media(min-width:1024px){h1{font-size:64px}h2{font-size:40px}}';
+  s.textContent = ':root{--bg:#0a0a0a;--card:#141414;--card-2:#1a1a1a;--text:#f5f5f5;--muted:#a0a0a0;--accent:#facc15;--accent-soft:rgba(250,204,21,.12);--accent2:#eab308;--accent2-soft:rgba(234,179,8,.12);--border:rgba(250,204,21,.15);--border-soft:rgba(255,255,255,.06)}.reveal{opacity:0;transform:translateY(20px);animation:fadeUp .6s ease forwards}.reveal:nth-child(2){animation-delay:.1s}.reveal:nth-child(3){animation-delay:.2s}.reveal:nth-child(4){animation-delay:.3s}.reveal:nth-child(5){animation-delay:.4s}.reveal:nth-child(6){animation-delay:.5s}@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}.hover-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}.hover-card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 12px 40px rgba(250,204,21,.1)}.btn-primary{transition:all .2s ease}.btn-primary:hover{background:#fde047;color:#000;transform:translateY(-1px);box-shadow:0 8px 24px rgba(250,204,21,.3)}.divider{height:3px;background:linear-gradient(90deg,var(--accent),#ca8a04);border-radius:2px;width:60px}.onca-pattern{background-image:radial-gradient(circle at 20% 30%,rgba(250,204,21,.06) 0%,transparent 40%),radial-gradient(circle at 80% 70%,rgba(250,204,21,.05) 0%,transparent 35%),radial-gradient(circle at 50% 50%,rgba(250,204,21,.03) 0%,transparent 50%)}.eixo-tab{transition:all .2s ease;cursor:pointer;white-space:nowrap}.eixo-tab.active{background:var(--accent);color:#000;font-weight:700}.eixo-tab:not(.active):hover{background:rgba(250,204,21,.15);border-color:var(--accent)}.proposta-item{border-left:3px solid transparent;transition:all .2s ease}.proposta-item:hover{border-left-color:var(--accent);background:rgba(250,204,21,.04)}.scrollbar-yellow::-webkit-scrollbar{width:6px}.scrollbar-yellow::-webkit-scrollbar-track{background:#1a1a1a}.scrollbar-yellow::-webkit-scrollbar-thumb{background:var(--accent);border-radius:3px}.tabs-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}.tabs-scroll::-webkit-scrollbar{display:none}.candidato-foto{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);flex-shrink:0;background:var(--card-2)}.candidato-foto-lg{width:110px;height:110px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);flex-shrink:0;background:var(--card-2)}.candidato-initials{width:72px;height:72px;border-radius:50%;border:3px solid var(--accent);background:var(--card-2);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:22px;font-family:\'Lora\',serif;flex-shrink:0}.candidato-initials-lg{width:110px;height:110px;border-radius:50%;border:4px solid var(--accent);background:var(--card-2);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:36px;font-family:\'Lora\',serif;flex-shrink:0}.numero-urna{display:inline-block;padding:4px 12px;border-radius:6px;background:var(--accent);color:#000;font-weight:700;font-size:14px;letter-spacing:.05em}.copy-btn{padding:4px 10px;border-radius:6px;background:transparent;border:1px solid var(--accent);color:var(--accent);font-size:11px;font-weight:600;cursor:pointer;transition:all .15s}.copy-btn:hover{background:var(--accent);color:#000}.copy-btn.copied{background:#22c55e;border-color:#22c55e;color:#fff}.cargo-badge{display:inline-block;padding:3px 10px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}.uf-badge{display:inline-block;padding:2px 8px;border-radius:4px;background:rgba(255,255,255,.08);color:var(--muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}.colinha-grid{display:grid;grid-template-columns:1fr;gap:12px}.colinha-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}@media(min-width:640px){.colinha-grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:768px){.colinha-grid{grid-template-columns:repeat(3,1fr)}}@media(min-width:1024px){.colinha-grid{grid-template-columns:repeat(4,1fr)}}@media(max-width:640px){.colinha-grid{grid-template-columns:1fr}.candidato-foto{width:56px;height:56px;font-size:18px}.candidato-foto-lg{width:80px;height:80px}.candidato-initials-lg{width:80px;height:80px;font-size:26px}}h1{font-size:40px}h2{font-size:28px}@media(min-width:640px){h1{font-size:56px}h2{font-size:34px}}@media(min-width:1024px){h1{font-size:64px}h2{font-size:40px}}.doacao-card{transition:all .2s ease;cursor:pointer}.doacao-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 12px 32px rgba(250,204,21,.15)}.doacao-card.selected{border-color:var(--accent);background:var(--accent-soft);box-shadow:0 0 0 2px var(--accent)}';
   document.head.appendChild(s);
 })();
 </script>
@@ -25,6 +25,7 @@
           <a href="#sobre" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:500">Sobre</a>
           <a href="#propostas" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:500">Propostas</a>
           <a href="#colinha" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:500">Colinha</a>
+          <a href="#doacao" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:500">Doar</a>
           <a href="#livro" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:500;display:none sm:display:inline">Livro Amarelo</a>
           <a href="https://www.renanpresidente.com.br" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding:8px 16px;border-radius:10px;background:var(--accent);color:#000;text-decoration:none;font-size:13px;font-weight:700;display:inline-flex;align-items:center;gap:6px">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
@@ -591,7 +592,7 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         <div style="background:linear-gradient(135deg,#1a1a1a 0%,#0f0f0f 100%);border:1px solid var(--border);border-radius:16px sm:border-radius:20px;padding:32px sm:padding:48px;position:relative;overflow:hidden">
           <div style="position:absolute;top:0;right:0;width:250px sm:width:300px;height:250px sm:height:300px;background:radial-gradient(circle,rgba(250,204,21,.15),transparent 70%);pointer-events:none"></div>
-          <div style="display:grid;grid-template-columns:1fr;gap:32px sm:gap:48px;align-items:center;position:relative;z-index:1" class="md:grid-cols-2">
+          <div style="display:grid;grid-template-columns:1fr;gap:32px sm:gap-48px;align-items:center;position:relative;z-index:1" class="md:grid-cols-2">
             <div style="text-align:center sm:text-align:left">
               <div style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;background:var(--accent);color:#000;margin-bottom:16px sm:margin-bottom:20px">
                 <span style="font-size:11px sm:font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase">Programa Completo</span>
@@ -605,7 +606,7 @@
               <p style="font-size:15px sm:font-size:17px;color:var(--text);line-height:1.6;margin:0 0 24px sm:margin-bottom:28px">
                 Todo partido promete. A Missão escreveu. O programa está inscrito no estatuto do partido para ser cobrado.
               </p>
-              <div style="display:flex;gap:12px sm:gap:14px;flex-wrap:wrap;justify-content:center sm:justify-content:flex-start">
+              <div style="display:flex;gap:12px sm:gap-14px;flex-wrap:wrap;justify-content:center sm:justify-content:flex-start">
                 <a href="https://www.renanpresidente.com.br" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding:12px 22px sm:padding:14px 26px;border-radius:10px;background:var(--accent);color:#000;text-decoration:none;font-weight:700;font-size:14px sm:font-size:15px;flex:1 sm:flex:none;text-align:center;justify-content:center">
                   Acessar Site Oficial
                 </a>
@@ -638,7 +639,7 @@
           <div class="divider" style="margin:0 auto 16px"></div>
           <h2 style="font-family:'Lora',serif;font-size:26px sm:font-size:34px;font-weight:700;color:var(--text);margin:0">Nossos Valores</h2>
         </div>
-        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px sm:gap:32px;text-align:center" class="sm:grid-cols-4">
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px sm:gap-32px;text-align:center" class="sm:grid-cols-4">
           <div style="padding:16px sm:padding:24px">
             <div style="font-family:'Lora',serif;font-size:40px sm:font-size:52px;font-weight:700;color:var(--accent);line-height:1;margin-bottom:6px sm:margin-bottom:8px">Fé</div>
             <p style="color:var(--muted);font-size:12px sm:font-size:14px;margin:0;line-height:1.5">Fundamentos cristãos</p>
@@ -654,6 +655,83 @@
           <div style="padding:16px sm:padding:24px">
             <div style="font-family:'Lora',serif;font-size:40px sm:font-size:52px;font-weight:700;color:var(--accent);line-height:1;margin-bottom:6px sm:margin-bottom:8px">Liberdade</div>
             <p style="color:var(--muted);font-size:12px sm:font-size:14px;margin:0;line-height:1.5">Cidadania e direitos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOAÇÕES -->
+    <section id="doacao" class="reveal">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+        <div style="background:linear-gradient(135deg,var(--card) 0%,#1a1a1a 100%);border:1px solid var(--border);border-radius:16px sm:border-radius:20px;padding:32px sm:padding:48px;position:relative;overflow:hidden">
+          <div style="position:absolute;top:0;left:0;width:300px;height:300px;background:radial-gradient(circle,rgba(250,204,21,.12),transparent 70%);pointer-events:none"></div>
+          <div style="position:absolute;bottom:0;right:0;width:250px;height:250px;background:radial-gradient(circle,rgba(250,204,21,.08),transparent 70%);pointer-events:none"></div>
+          
+          <div style="position:relative;z-index:1;max-width:720px;margin:0 auto;text-align:center">
+            <div class="divider" style="margin:0 auto 16px"></div>
+            <h2 style="font-family:'Lora',serif;font-weight:700;color:var(--text);margin:0 0 12px sm:margin-bottom:16px">
+              Ajude a comprar o <span style="color:var(--accent)">domínio do site</span>
+            </h2>
+            <p style="font-size:15px sm:font-size:17px;color:var(--muted);line-height:1.6;margin:0 0 28px sm:margin-bottom:32px">
+              Este site de apoio precisa de um domínio próprio para alcançar mais pessoas. Qualquer valor ajuda a tornar a Missão ainda mais forte na internet.
+            </p>
+
+            <!-- Meta e progresso -->
+            <div style="background:var(--card-2);border:1px solid var(--border-soft);border-radius:12px;padding:16px sm:padding:20px;margin-bottom:28px sm:margin-bottom:32px;text-align:left">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px">
+                <span style="font-size:13px;color:var(--muted);font-weight:500">Meta para o domínio + 1 ano de hospedagem</span>
+                <span style="font-family:'Lora',serif;font-weight:700;color:var(--accent);font-size:18px">R$ 200,00</span>
+              </div>
+              <div style="width:100%;height:10px;background:#0a0a0a;border-radius:6px;overflow:hidden">
+                <div style="width:0%;height:100%;background:linear-gradient(90deg,var(--accent),#ca8a04);border-radius:6px;transition:width .6s ease" id="doacao-progresso"></div>
+              </div>
+              <div style="display:flex;justify-content:space-between;margin-top:8px">
+                <span style="font-size:12px;color:var(--muted)">R$ 0,00 arrecadados</span>
+                <span style="font-size:12px;color:var(--accent);font-weight:600">0%</span>
+              </div>
+            </div>
+
+            <!-- Valores sugeridos -->
+            <p style="font-size:13px;color:var(--muted);margin-bottom:14px;font-weight:500">Escolha um valor (ou doe qualquer quantia no Pix):</p>
+            <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px sm:gap:12px;margin-bottom:24px sm:margin-bottom:28px" class="sm:grid-cols-4">
+              <div class="doacao-card" onclick="selecionarValor(this,10)" style="background:var(--card-2);border:1px solid var(--border-soft);border-radius:10px;padding:14px;text-align:center">
+                <div style="font-family:'Lora',serif;font-size:24px;font-weight:700;color:var(--accent);margin-bottom:2px">R$ 10</div>
+                <div style="font-size:11px;color:var(--muted)">Café para a causa</div>
+              </div>
+              <div class="doacao-card" onclick="selecionarValor(this,25)" style="background:var(--card-2);border:1px solid var(--border-soft);border-radius:10px;padding:14px;text-align:center">
+                <div style="font-family:'Lora',serif;font-size:24px;font-weight:700;color:var(--accent);margin-bottom:2px">R$ 25</div>
+                <div style="font-size:11px;color:var(--muted)">Ajuda com o registro</div>
+              </div>
+              <div class="doacao-card" onclick="selecionarValor(this,50)" style="background:var(--card-2);border:1px solid var(--border-soft);border-radius:10px;padding:14px;text-align:center">
+                <div style="font-family:'Lora',serif;font-size:24px;font-weight:700;color:var(--accent);margin-bottom:2px">R$ 50</div>
+                <div style="font-size:11px;color:var(--muted)">Um mês de hospedagem</div>
+              </div>
+              <div class="doacao-card" onclick="selecionarValor(this,100)" style="background:var(--card-2);border:1px solid var(--border-soft);border-radius:10px;padding:14px;text-align:center">
+                <div style="font-family:'Lora',serif;font-size:24px;font-weight:700;color:var(--accent);margin-bottom:2px">R$ 100</div>
+                <div style="font-size:11px;color:var(--muted)">Metade da meta</div>
+              </div>
+            </div>
+
+            <!-- Chave Pix -->
+            <div style="background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px sm:border-radius:14px;padding:20px sm:padding:24px;text-align:center">
+              <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:12px">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--accent)"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg>
+                <span style="font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.08em">Chave Pix · E-mail</span>
+              </div>
+              <div id="chave-pix" style="font-family:'Lora',serif;font-size:18px sm:font-size:22px;font-weight:700;color:var(--text);margin-bottom:14px;word-break:break-all">marcelodelrei10@gmail.com</div>
+              <button class="btn-primary" onclick="copiarChavePix(this)" style="padding:12px 28px;border-radius:10px;background:var(--accent);color:#000;border:none;font-weight:700;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:8px">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                Copiar Chave Pix
+              </button>
+              <p style="font-size:12px;color:var(--muted);margin-top:12px;line-height:1.5">
+                Abra o app do seu banco, escolha Pix → Pagar com chave → E-mail<br>
+                e cole o endereço acima. Qualquer valor ajuda!
+              </p>
+            </div>
+
+            <p style="font-size:12px;color:#666;margin-top:20px">
+              Doação voluntária de apoiador · Não é dedutível de imposto de renda
+            </p>
           </div>
         </div>
       </div>
@@ -708,6 +786,7 @@
               <li><a href="#sobre" style="color:var(--muted);text-decoration:none;font-size:13px sm:font-size:14px">Sobre</a></li>
               <li><a href="#propostas" style="color:var(--muted);text-decoration:none;font-size:13px sm:font-size:14px">Propostas</a></li>
               <li><a href="#colinha" style="color:var(--muted);text-decoration:none;font-size:13px sm:font-size:14px">Colinha Eleitoral</a></li>
+              <li><a href="#doacao" style="color:var(--muted);text-decoration:none;font-size:13px sm:font-size:14px">Doar para o site</a></li>
               <li><a href="#livro" style="color:var(--muted);text-decoration:none;font-size:13px sm:font-size:14px">Livro Amarelo</a></li>
             </ul>
           </div>
@@ -1021,6 +1100,37 @@ function copiarNumero(btn, numero) {
       btn.classList.remove('copied');
     }, 1500);
   });
+}
+
+function copiarChavePix(btn) {
+  var chave = document.getElementById('chave-pix').textContent;
+  navigator.clipboard.writeText(chave).then(function() {
+    var original = btn.innerHTML;
+    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Chave Copiada!';
+    btn.style.background = '#22c55e';
+    btn.style.color = '#fff';
+    setTimeout(function() {
+      btn.innerHTML = original;
+      btn.style.background = '';
+      btn.style.color = '';
+    }, 2000);
+  }).catch(function() {
+    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Chave Copiada!';
+    btn.style.background = '#22c55e';
+    btn.style.color = '#fff';
+    setTimeout(function() {
+      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copiar Chave Pix';
+      btn.style.background = '';
+      btn.style.color = '';
+    }, 2000);
+  });
+}
+
+function selecionarValor(card, valor) {
+  document.querySelectorAll('.doacao-card').forEach(function(c) {
+    c.classList.remove('selected');
+  });
+  card.classList.add('selected');
 }
 </script>
 </html>
